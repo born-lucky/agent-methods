@@ -10,6 +10,7 @@ told.
 | **Proof-first** | An agent is about to build or "fix" part of a port without having proved how the original works | `skills/proof-first` |
 | **Reader** | The port matches the original's code on paper but still comes out wrong | `skills/reader-method` |
 | **Skillify** | The user names a new way of working and it should stick for future sessions | `skills/skillify-method` |
+| **PDF Reference Synthesis Insight** | A hard-won understanding of a mechanism must never be lost or re-derived | `skills/pdf-reference-synthesis` |
 
 Related, by others: the **Spreadsheet Method** and **Database Method** from
 [phoenixfire808/rustports](https://github.com/phoenixfire808/rustports) (evidence-first specs and decomp-to-database).
@@ -24,7 +25,7 @@ cp -r agent-methods/skills/* ~/.claude/skills/
 ```
 
 Claude Code picks them up on the next session. Invoke with `/staging`, `/proof-first`, `/reader-method`,
-`/skillify-method`, or just describe the situation; each skill's description lists its triggers.
+`/skillify-method`, `/pdf-reference-synthesis`, or just describe the situation; each skill's description lists its triggers.
 
 ## How they fit together
 
